@@ -1,4 +1,4 @@
-package concurrency
+package examples
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 
 var wg sync.WaitGroup
 
-func main() {
+func Example3() {
 	start := time.Now()
 	websites := []string{
 		"https://stackoverflow.com/",
