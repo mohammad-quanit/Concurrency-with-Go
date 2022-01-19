@@ -1,9 +1,9 @@
 package main
 
 import (
-	channels "github.com/mohammad-quanit/go-concurrency-examples/Channels"
+	channels "github.com/mohammad-quanit/go-concurrency-examples/Concurrency"
 )
 
 func main() {
-	channels.Example1()
+	channels.Example2()
 }
