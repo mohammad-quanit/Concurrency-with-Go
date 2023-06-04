@@ -5,9 +5,9 @@ import (
 )
 
 func main() {
-	// Concurrency.Example1()
+	Concurrency.Example1()
 	// Concurrency.Example2()
 	// Concurrency.Example3()
 	// Concurrency.Example4()
-	Concurrency.Example5()
+	// Concurrency.Example5()
 }

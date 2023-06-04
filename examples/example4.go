@@ -56,7 +56,7 @@ func Producer(s *Stack, c1, c2 chan string, number int) {
 }
 
 func Consumer(s *Stack, c1, c2, c3 chan string) {
-	for _ = range c1 {
+	for range c1 {
 		c2 <- "Consumed"
 	}
 	close(c2)
